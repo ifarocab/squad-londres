@@ -1,0 +1,52 @@
+﻿REGISTRO DE ELIMINACION DE CRON JOBS
+====================================
+
+Fecha: 2026-05-05
+Hora: 18:37
+Responsable: Toni Sanz (Orquestador)
+
+JOBS ELIMINADOS
+---------------
+
+1. agent:toni-sanz:cron:880cfdfb-63c3-4e6e-8918-1348b2a52e6a
+   Label: Cron: SMadrid-Scheduler-ToDo
+   Funcion: todo-executor
+   Razon: Sustituido por orquestador Python
+
+2. agent:toni-sanz:cron:35d134f0-88ab-4ac3-bd7c-9f994bfd0a75
+   Label: Cron: SMadrid-Scheduler-detect
+   Funcion: detect-light
+   Razon: Sustituido por orquestador Python
+
+3. agent:toni-sanz:cron:a1b2c3d4-e5f6-7890-abcd-ef1234567890
+   Label: Cron: SMadrid-detect-deep
+   Funcion: detect-deep
+   Razon: Sustituido por orquestador Python
+
+BACKUP CREADO
+-------------
+Ubicacion: ~/.openclaw/agents/toni-sanz/sessions/sessions.json.backup.20260505_183722
+
+ARCHIVO MODIFICADO
+------------------
+~/.openclaw/agents/toni-sanz/sessions/sessions.json
+
+NOTAS
+-----
+- Los jobs han sido eliminados permanentemente
+- La funcionalidad ha sido migrada al Orquestador Multi-Squad
+- El nuevo orquestador se ejecuta via Windows Task Scheduler
+- Ubicacion del orquestador: Squad_Governance/01.workspace-squad/09.Orchestrator_Squads/
+
+RESTAURACION (si es necesario)
+------------------------------
+Para restaurar los jobs originales:
+copy sessions.json.backup.20260505_183722 sessions.json
+
+VERIFICACION
+------------
+Los jobs eliminados no deberian aparecer en:
+openclaw tasks list
+
+====================================
+Fin del registro

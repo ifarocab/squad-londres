@@ -1,0 +1,21 @@
+{
+  "id": "DEC-YYYYMMDD-001",
+  "requestId": "REQ-YYYYMMDD-001",
+  "decidedAt": "YYYY-MM-DDTHH:mm:ssZ",
+  "decider": "Nombre",
+  "decision": "approved|rejected|deferred",
+  "reason": "Motivo de la decisión",
+  "conditions": [
+    "Condición 1",
+    "Condición 2"
+  ],
+  "owner": "Nombre",
+  "eta": "YYYY-MM-DDTHH:mm:ssZ",
+  "followUpCycle": "cada 5m|cada 2h|diario",
+  "status": "open|in_progress|done",
+  "evidence": "Evidencia de cumplimiento",
+  "links": {
+    "issue": "#...",
+    "acta": "ruta/acta.md"
+  }
+}

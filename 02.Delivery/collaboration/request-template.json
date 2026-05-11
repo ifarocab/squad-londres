@@ -1,0 +1,29 @@
+{
+  "id": "REQ-YYYYMMDD-001",
+  "createdAt": "YYYY-MM-DDTHH:mm:ssZ",
+  "channel": "squad-interno",
+  "title": "Mejora/colaboración ...",
+  "type": "improvement|collaboration",
+  "requester": "Nombre",
+  "ownerProposed": "Nombre",
+  "priority": "P0|P1|P2|P3|P4|P5",
+  "scope": "Qué cambia y qué no",
+  "impact": "Impacto esperado",
+  "evidenceExpected": "Evidencia mínima",
+  "eta": "YYYY-MM-DDTHH:mm:ssZ",
+  "raci": {
+    "R": ["Nombre"],
+    "A": ["Nombre"],
+    "C": ["Nombre"],
+    "I": ["Nombre"]
+  },
+  "governanceCheck": {
+    "status": "pending|pass|fail",
+    "notes": ""
+  },
+  "status": "open|in_progress|resolved|rejected",
+  "links": {
+    "issue": "#...",
+    "acta": "ruta/acta.md"
+  }
+}

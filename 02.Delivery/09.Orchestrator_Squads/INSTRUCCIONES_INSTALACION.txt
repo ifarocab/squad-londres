@@ -1,0 +1,37 @@
+INSTRUCCIONES DE INSTALACION
+Orquestador Multi-Squad
+
+METODO 1: Instalacion Automatica
+
+Paso 1: Verificar GH_TOKEN
+  echo %GH_TOKEN%
+
+Paso 2: Ejecutar como Administrador
+  Navegar a: wrappers/INSTALAR_COMO_ADMIN.bat
+  Click derecho -> Ejecutar como administrador
+
+Paso 3: Verificar
+  schtasks /query /tn "OpenClaw\OrquestadorMultiSquad" /v
+
+METODO 2: Task Scheduler Manual
+
+1. Abrir taskschd.msc
+2. Crear carpeta OpenClaw
+3. Crear tarea OrquestadorMultiSquad
+4. Programar cada 10 minutos
+5. Accion: run-orchestrator.bat
+
+VERIFICACION
+
+Ver tarea:
+  schtasks /query /tn "OpenClaw\OrquestadorMultiSquad"
+
+Ejecutar manual:
+  schtasks /run /tn "OpenClaw\OrquestadorMultiSquad"
+
+Ver logs:
+  type logs\cron\orchestrator-YYYYMMDD.log
+
+ELIMINAR TAREA
+
+schtasks /delete /tn "OpenClaw\OrquestadorMultiSquad" /f

@@ -1,0 +1,13 @@
+# YYYY-MM-DD-nota
+
+## Situación
+...
+
+## Impacto
+...
+
+## Acción
+...
+
+## Estado
+...

@@ -1,0 +1,52 @@
+========================================
+INSTALACION DEL ORQUESTADOR MULTI-SQUAD
+========================================
+
+ESTADO: Listo para instalar
+REQUIERE: Privilegios de Administrador
+
+ARCHIVOS DE INSTALACION DISPONIBLES:
+-------------------------------------
+
+1. INSTALAR_COMO_ADMIN.bat
+   - Metodo recomendado
+   - Doble click + "Ejecutar como administrador"
+   - Ubicacion: wrappers/INSTALAR_COMO_ADMIN.bat
+
+2. Instalar-Orquestador.ps1
+   - Para usuarios de PowerShell
+   - Ejecutar: .\Instalar-Orquestador.ps1
+   - Requiere: PowerShell como Admin
+
+3. Instalacion manual via Task Scheduler
+   - Abrir taskschd.msc
+   - Crear tarea en carpeta OpenClaw
+   - Programar cada 10 minutos
+
+CONFIGURACION ACTUAL:
+--------------------
+Squads configurados: 2
+  - Squad Madrid
+  - Squad Londres
+
+Token GitHub: GH_TOKEN (usara variable de entorno)
+
+Frecuencia: Cada 10 minutos
+
+PROXIMA VERSION:
+---------------
+Se recomienda configurar GH_TOKEN permanentemente:
+  [Environment]::SetEnvironmentVariable('GH_TOKEN', 'tu_token', 'User')
+
+VERIFICACION POST-INSTALACION:
+------------------------------
+Ver tarea:
+  schtasks /query /tn "OpenClaw\OrquestadorMultiSquad" /v
+
+Ejecutar manual:
+  schtasks /run /tn "OpenClaw\OrquestadorMultiSquad"
+
+Ver logs:
+  type logs\cron\orchestrator-20260505.log
+
+========================================

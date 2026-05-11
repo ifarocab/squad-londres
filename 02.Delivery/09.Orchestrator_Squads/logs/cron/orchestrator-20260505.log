@@ -1,0 +1,57 @@
+2026-05-05 17:53:57,805 [INFO] ============================================================
+2026-05-05 17:53:57,805 [INFO] ORQUESTADOR MULTI-SQUAD - Squad Governance
+2026-05-05 17:53:57,806 [INFO] ============================================================
+2026-05-05 17:53:57,806 [INFO] Configuracion: C:\Users\ifaro\.openclaw\workspaces\Squad_Governance\01.workspace-squad\09.Orchestrator_Squads\config\squads.ini
+2026-05-05 17:53:57,806 [ERROR] Variable de entorno GH_TOKEN no definida
+2026-05-05 23:30:40,327 [INFO] ============================================================
+2026-05-05 23:30:40,348 [INFO] ORQUESTADOR MULTI-SQUAD - Squad Governance
+2026-05-05 23:30:40,349 [INFO] ============================================================
+2026-05-05 23:30:40,349 [INFO] Configuracion: C:\Users\ifaro\.openclaw\workspaces\Squad_Governance\01.workspace-squad\09.Orchestrator_Squads\config\squads.ini
+2026-05-05 23:30:40,350 [INFO] Token GitHub cargado correctamente
+2026-05-05 23:30:40,350 [INFO] Squads configurados: 2
+2026-05-05 23:30:40,363 [INFO]   - Squad Madrid: 1 repositorios
+2026-05-05 23:30:40,364 [INFO]   - Squad Londres: 1 repositorios
+2026-05-05 23:30:40,364 [INFO] Total: 2 repositorios en 2 squads
+2026-05-05 23:30:40,364 [INFO] 
+2026-05-05 23:30:40,365 [INFO] ============================================================
+2026-05-05 23:30:40,365 [INFO] ORQUESTADOR - Configuracion validada correctamente
+2026-05-05 23:30:40,365 [INFO] ============================================================
+2026-05-05 23:37:03,017 [INFO] ============================================================
+2026-05-05 23:37:03,018 [INFO] ORQUESTADOR MULTI-SQUAD - Squad Governance
+2026-05-05 23:37:03,018 [INFO] ============================================================
+2026-05-05 23:37:03,018 [INFO] Configuracion: C:\Users\ifaro\.openclaw\workspaces\Squad_Governance\01.workspace-squad\09.Orchestrator_Squads\config\squads.ini
+2026-05-05 23:37:03,019 [INFO] Token GitHub cargado correctamente
+2026-05-05 23:37:03,019 [INFO] Squads configurados: 2
+2026-05-05 23:37:03,019 [INFO]   - Squad Madrid: 1 repositorios
+2026-05-05 23:37:03,020 [INFO]   - Squad Londres: 1 repositorios
+2026-05-05 23:37:03,020 [INFO] Total: 2 repositorios en 2 squads
+2026-05-05 23:37:03,020 [INFO] 
+2026-05-05 23:37:03,021 [INFO] ============================================================
+2026-05-05 23:37:03,021 [INFO] ORQUESTADOR - Configuracion validada correctamente
+2026-05-05 23:37:03,021 [INFO] ============================================================
+2026-05-05 23:47:04,022 [INFO] ============================================================
+2026-05-05 23:47:04,022 [INFO] ORQUESTADOR MULTI-SQUAD - Squad Governance
+2026-05-05 23:47:04,022 [INFO] ============================================================
+2026-05-05 23:47:04,024 [INFO] Configuracion: C:\Users\ifaro\.openclaw\workspaces\Squad_Governance\01.workspace-squad\09.Orchestrator_Squads\config\squads.ini
+2026-05-05 23:47:04,034 [INFO] Token GitHub cargado correctamente
+2026-05-05 23:47:04,034 [INFO] Squads configurados: 2
+2026-05-05 23:47:04,034 [INFO]   - Squad Madrid: 1 repositorios
+2026-05-05 23:47:04,036 [INFO]   - Squad Londres: 1 repositorios
+2026-05-05 23:47:04,036 [INFO] Total: 2 repositorios en 2 squads
+2026-05-05 23:47:04,036 [INFO] 
+2026-05-05 23:47:04,036 [INFO] ============================================================
+2026-05-05 23:47:04,036 [INFO] ORQUESTADOR - Configuracion validada correctamente
+2026-05-05 23:47:04,038 [INFO] ============================================================
+2026-05-05 23:57:01,861 [INFO] ============================================================
+2026-05-05 23:57:01,861 [INFO] ORQUESTADOR MULTI-SQUAD - Squad Governance
+2026-05-05 23:57:01,861 [INFO] ============================================================
+2026-05-05 23:57:01,862 [INFO] Configuracion: C:\Users\ifaro\.openclaw\workspaces\Squad_Governance\01.workspace-squad\09.Orchestrator_Squads\config\squads.ini
+2026-05-05 23:57:01,862 [INFO] Token GitHub cargado correctamente
+2026-05-05 23:57:01,862 [INFO] Squads configurados: 2
+2026-05-05 23:57:01,862 [INFO]   - Squad Madrid: 1 repositorios
+2026-05-05 23:57:01,863 [INFO]   - Squad Londres: 1 repositorios
+2026-05-05 23:57:01,863 [INFO] Total: 2 repositorios en 2 squads
+2026-05-05 23:57:01,864 [INFO] 
+2026-05-05 23:57:01,864 [INFO] ============================================================
+2026-05-05 23:57:01,864 [INFO] ORQUESTADOR - Configuracion validada correctamente
+2026-05-05 23:57:01,864 [INFO] ============================================================
